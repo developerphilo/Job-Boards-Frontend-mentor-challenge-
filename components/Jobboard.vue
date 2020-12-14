@@ -6,7 +6,7 @@
     <div class="flex flex-col justify-between ml-4">
       <h3 class="font-bold text-base text-teal-500">{{ company }}</h3>
       <h2 class="font-bold text-xl">{{ pos }}</h2>
-      <p class="text-gray-600">{{ due }} * {{ contract }} * {{ loc }}</p>
+      <p class="text-gray-600">{{ due }} · {{ contract }} · {{ loc }}</p>
     </div>
     <div class="flex items-center ml-auto">
       <div v-for="lang in language" v-bind:key="lang.id" :la="lang">
