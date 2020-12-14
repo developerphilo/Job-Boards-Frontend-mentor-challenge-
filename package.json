@@ -9,8 +9,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "postcss-import": "^12.0.1"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.1.0"
